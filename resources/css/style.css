@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-.header {
+header {
  height: 69px;
  border-bottom: 1px solid seashell;
  position: fixed;
@@ -16,27 +16,30 @@ body {
  flex-direction: row;
 }
 
-.titleLogoContainer {
-
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #titleLogo {
   height: 50px;
   padding-left: 10px;
 }
-.navBarContainer {
-
-
-}
 
 .navBar {
   text-decoration: underline;
   list-style-type: none;
-    text-align: center;
-
+  text-align: center;
+  text-align: right;
+  flex-grow: 1;
 }
 
 .navBar li {
-  padding-left: 30px;
+  padding: 0px 15px;
   display: inline-block;
+}
+
+.navBar li a {
+  color: seashell;
 }
