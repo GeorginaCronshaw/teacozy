@@ -49,17 +49,19 @@ header {
 }
 
 .mainBodyContainer {
-  height: 700px;
-  display: flex;
+  width:100%;
   padding-top: 25px;
-  border: 1px solid white;
   display: flex;
-  align-items: center;
+ 
   justify-content: center;
 }
 
-.mainImageContainer {
-  border: 1px red white;
+.backgroundImageContainer {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("C:/cygwin64/home/teacozy/resources/images/img-mission-background.jpg");
 }
 
 .headlineText {
@@ -81,13 +83,6 @@ header {
   /*border: 1px orange solid;*/
 }
 
-#title-background {
-  height: 700px;
-  margin-top: 70px;
-  padding: 0;
-  background-size: cover;
-}
-
 .TeaMonthText {
   margin-top: 100px;
 }
@@ -106,19 +101,23 @@ header {
   align-items: center;
 }
 
+.teaImage1 p{
+ margin-top: 10px;
+}
+
 .locations {
-  border: solid 1px white;
   width: 100%;
   display: flex;
   margin-top:50px;
   justify-content: center;
-  height: 500px;
+  height: 500px; 
 }
 
-.LocationsImage {
-  /*border: 1px orange solid;*/
-  position: absolute;
-  background-size: cover;
+.locationBackgroundImageContainer {
+	width:1200px;
+	background-image: url("C:/cygwin64/home/teacozy/resources/images/img-locations-background.jpg");
+	display: flex;
+    justify-content: center;	
 }
 
 .locationsTitle {
@@ -168,7 +167,7 @@ header {
 	width:100%;
 	height:200px;
 	flex-direction: column;
-	padding-top: 15px;
+	padding-top: 70px;
 }
 
 .footerContainer p, h1, h5{
@@ -179,6 +178,7 @@ header {
 #copyright {
 	display:flex;
 	padding-left:20px;
+	padding-top:60px;
 	text-align:left;
 }
 	                                                                                                                                                                                       
